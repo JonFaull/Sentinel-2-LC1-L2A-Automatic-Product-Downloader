@@ -1,4 +1,4 @@
-# Sentinel-2-LC1-L2A-Automatic-Product-Downloader
+# Sentinel 2 LC1-L2A Automatic Product Downloader
 
 ## Introduction:
 

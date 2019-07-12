@@ -8,7 +8,7 @@ A program that allows you to automatically download multiple Sentinel LC1/L2A pr
 
 This program was written in Windows 10 using Python 3.6 anad an Anaconda installation. Python 3.6 can be downloaded [here](https://repo.continuum.io/archive/), I use `Anaconda3-5.2.0-Windows-x86_64.exe`. 
 
-The following python packages are needed and can be install via `PIP`: `sentinelsat, datetime, glob, os, utm, zipfile, numpy, pyproj,  pandas, re, pygeoj`.
+The following python packages are needed and can be install via `PIP`: `sentinelsat, datetime, glob, os, utm, zipfile, numpy, pyproj,  pandas, re, pygeoj` and `configparser`.
 
 The following python packages are also needed and can be downloaded [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/): `rasterio, shapely, gdal`.
 
@@ -17,7 +17,7 @@ Navigate in the terminal to your download location and you can `PIP` install the
 
 ## Getting Started:
 
-Providing you have all the dependencies installed, running the program should be pretty straight forward and you should only need to change the following variables: 
+Providing you have all the dependencies installed, running the program should be pretty straight forward and you should only need to change the following variables in the `config.ini` file and the location of the `config.ini` file in the main python code (pay attention that you include the / on the end of file directoy names, see example below): 
 
 `Username = "USERNAME"`    
 `Password = "PASSWORD"`        

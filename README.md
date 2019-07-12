@@ -33,7 +33,7 @@ Providing you have all the dependencies installed, running the program should be
 `download_folder = 'E:/Products'`        
 `productSize = 650`    
 
-`Username, Password`: this is the username and password that give authentication for the Sentinel servers. Creeate and account [here](https://scihub.copernicus.eu/dhus/#/self-registration). 
+`Username, Password`: this is the username and password that give authentication for the Sentinel servers. Create and account [here](https://scihub.copernicus.eu/dhus/#/self-registration). 
 
 `footprintName`: Area of Earth that you are intersted in, you can use [this](http://geojson.io). Select your area of interest with the square or polygon tool, then save, save as .GeoJson. Save it to desired location and update directory location below:    
 `geoJsonFolder = 'D:/Documents/Programming/hello/GEOFiles/`     
